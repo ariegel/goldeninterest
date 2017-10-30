@@ -120,7 +120,7 @@ li {
       /* autoprefixer: off */
       display: grid;
       grid-template-columns: repeat(3, 16vw);
-      grid-auto-rows: minmax(0, 1fr);
+      grid-auto-rows: minmax(16vw, 1fr);
       grid-gap: 2vw; }
     li {
       min-height: 16vw; }
