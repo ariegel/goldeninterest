@@ -87,7 +87,7 @@ li {
   float: left;
   margin: 10px;
 }
-.ticketinfo {
+.nextonstage {
   width: 320px;
   float: left;
   margin: 10px;
@@ -126,7 +126,7 @@ li {
       grid-row: 2 / 3;
       align-self: center;
     }
-    .ticketinfo {
+    .nextonstage {
       width: auto;
       margin: 0;
       grid-column: 4 / 6;    
@@ -134,13 +134,14 @@ li {
     }  
     ul {
       grid-row: 2 / 9;  
-      grid-columns: 1 / 8; 
+      grid-column: 1 / 8; 
     }    
     // Inner Grid
     ul { /* autoprefixer: off */
       display: grid;
       grid-template-columns: repeat(3, 16vw);
-      grid-auto-rows: minmax(16vw 1fr);
+      grid-auto-rows: minmax(0,1fr);
+      //grid-auto-rows: minmax(16vw 1fr);
       grid-gap: 2vw;
     }
     li {
@@ -213,7 +214,7 @@ li {
       grid-row: 2 / 3;
       align-self: center;
     }
-    .ticketinfo {
+    .nextonstage {
       width: auto;
       margin: 0;
       grid-column: 5 / 7;    
@@ -221,7 +222,7 @@ li {
     }  
     ul {
       grid-row: 2 / 9;  
-      grid-columns: 1 / 8; 
+      grid-column: 1 / 8; 
     }    
     // Inner Grid
     ul { /* autoprefixer: off */
